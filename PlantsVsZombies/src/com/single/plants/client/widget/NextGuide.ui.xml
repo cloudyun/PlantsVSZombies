@@ -1,0 +1,53 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
+	<ui:style>
+		.guide div{
+			position:absolute;	
+		}	
+		.important {
+			font-weight: bold;
+		}
+		.title{
+			font-size:30px;
+			color:yellow;	
+			text-align:center;
+			width:800px;
+			top:35px;
+		}
+		.name{
+			font-size:20px;
+			left:250px;
+			top:310px;
+			width:300px;
+			text-align:center;
+			color:red;	
+		}	
+		.content{
+			left:270px;
+			text-align:center;
+			top:360px;
+			width:250px;
+			color:green;	
+		}	
+		.centercard{
+			left:380px;
+			top:150px;	
+		}	
+		.next{
+			left:300px;
+			text-align:center;
+			top:500px;
+			width:160px;
+			height:30px;
+			cursor:pointer;
+			padding:10px 0 0 0;	
+		}	
+	</ui:style>
+	<div class="{style.guide}">
+		<div class="{style.title}" ui:field="title">你得到了一株新植物</div>
+		<div class="{style.centercard}" ui:field="cardElement"></div>
+		<div class="{style.name}" ui:field="name"></div>
+		<div class="{style.content}" ui:field="content"></div>
+		<div class="{style.next} next" ui:field="next">下一关</div>
+	</div>
+</ui:UiBinder>

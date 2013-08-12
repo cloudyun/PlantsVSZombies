@@ -1,0 +1,36 @@
+{
+	collection:50,
+	shovel:false,
+	enableRows:[1,2,3],
+	preview:[
+		{id:"Zombie1",row:1,column:8},
+		{id:"ConeheadZombie",row:2,column:7},
+		{id:"Zombie1",row:2,column:8}
+	],
+	battle:[
+		[
+			{id:"Zombie1",delay:45,row:3},
+			{id:"Zombie1",delay:15,row:2},
+			{id:"Zombie1",delay:15,row:1},
+			{id:"ConeheadZombie",delay:10,row:3},
+			{id:"ConeheadZombie",delay:15,row:2},
+			{id:"ConeheadZombie",delay:10,row:3},
+			{id:"Zombie1",delay:10,row:2},
+			{id:"Zombie1",delay:2,row:1},
+			{id:"Zombie1",delay:1,row:1}
+		],
+		[
+			{id:"ConeheadZombie",delay:10,row:2},
+			{id:"Zombie1",delay:10,row:1},
+			{id:"ConeheadZombie",delay:10,row:2}
+		],
+		[
+			{id:"FlagZombie",delay:3,row:3},
+			{id:"Zombie1",delay:2,row:2},
+			{id:"Zombie1",delay:0.2,row:3},
+			{id:"Zombie1",delay:0.5,row:1},
+			{id:"ConeheadZombie",delay:0.5,row:2},
+			{id:"Zombie1",delay:0.2,row:3}
+		]
+	]
+}

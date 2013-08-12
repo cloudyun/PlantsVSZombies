@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='plantsvszombies'>
+  <!-- Inherit the core Web Toolkit stuff.                        -->
+  <inherits name='com.google.gwt.user.User'/>
+  <inherits name="com.framework.FrameWork" />
+  <inherits name="com.allen_sauer.gwt.voices.gwt-voices" />
+
+  <entry-point class='com.single.plants.client.PlantsVsZombies'/>
+
+  <source path='client'/>
+  <source path='shared'/>
+<stylesheet src="pvz.css" />
+</module>

@@ -1,0 +1,22 @@
+{
+	collection:50,
+	enableRows:[0,1,2,3,4],
+	preview:[],
+	battle:[
+		[
+			{id:"Zombie1",delay:10,row:1},
+			{id:"Zombie1",delay:15,row:2},
+			{id:"Zombie1",delay:15,row:3}
+		],
+		[
+			{id:"ConeheadZombie",delay:10,row:2},
+			{id:"Zombie1",delay:10,row:1},
+			{id:"ConeheadZombie",delay:10,row:2}
+		],
+		[
+			{id:"Zombie1",delay:10,row:3},
+			{id:"ConeheadZombie",delay:10,row:1},
+			{id:"ConeheadZombie",delay:10,row:2}
+		]
+	]
+}

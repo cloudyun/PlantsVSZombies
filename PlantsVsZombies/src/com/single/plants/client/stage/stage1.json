@@ -1,0 +1,20 @@
+{
+	collection:150,
+	shovel:false,
+	enableRows:[2],
+	preview:[
+		{id:"Zombie1",row:2,column:8},
+		{id:"Zombie1",row:3,column:8}
+	],
+	battle:[
+		[
+			{id:"Zombie1",delay:2,row:2},
+			{id:"Zombie1",delay:10,row:2},
+			{id:"Zombie1",delay:10,row:2}
+		],
+		[
+			{id:"Zombie1",delay:2,row:2},
+			{id:"Zombie1",delay:3,row:2}
+		]
+	]
+}
