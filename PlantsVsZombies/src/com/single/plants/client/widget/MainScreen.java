@@ -211,8 +211,7 @@ public class MainScreen extends Container<Component> implements PVZResources , S
 			}else if("帮助".equals(element.getInnerText())){
 				helpScreen.getStyle().setDisplay(Display.BLOCK);
 			}else if("退出".equals(element.getInnerText())){
-				String text="Sorry 晃点你了,想退出直接关闭网页!\n对本游戏有什么建议或者发现BUG欢迎mail:yonglin4605@163.com告知\n" +
-						"或者在http://yonglin4605.javaeye.com上给我留言";
+				String text="Sorry 晃点你了,想退出直接关闭网页!\n对本游戏有什么建议或者发现BUG欢迎至:https://github.com/xuhengfei/PlantsVSZombies提issue\n";
 				Window.alert(text);
 			}
 		default:
